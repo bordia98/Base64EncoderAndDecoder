@@ -4,10 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#f8fafc" />
-    <meta name="description" content="Encode text to Base64 or decode Base64 to readable text instantly in your browser. Private, fast, and no data is stored." />
+    <meta name="description" content="Free Base64 encoder and decoder for text. Convert Base64 instantly in your browser with Unicode support—private, fast, and no data stored." />
     <meta name="google-site-verification" content="CTKB_9txeXMrLSuYICR1B_pjmvU8wR2KuNNo4pZdVQM" />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://bordia98.github.io/Base64EncoderAndDecoder/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Base64 Text Converter" />
+    <meta property="og:title" content="Base64 Encoder & Decoder — Convert Text Online" />
+    <meta property="og:description" content="Encode or decode Base64 text instantly in your browser. Unicode-safe, private, and no data is stored." />
+    <meta property="og:url" content="https://bordia98.github.io/Base64EncoderAndDecoder/" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Base64 Encoder & Decoder — Convert Text Online" />
+    <meta name="twitter:description" content="Encode or decode Base64 text instantly in your browser. Unicode-safe, private, and no data is stored." />
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
     <script type="application/ld+json">
@@ -17,11 +25,15 @@
         "name": "Base64 Text Converter",
         "applicationCategory": "UtilitiesApplication",
         "operatingSystem": "Any",
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "browserRequirements": "Requires JavaScript and a modern web browser.",
+        "featureList": "Base64 encoding, Base64 decoding, Unicode text support, URL-safe Base64 decoding, light and dark themes",
         "description": "A private in-browser Base64 encoder and decoder for text.",
         "url": "https://bordia98.github.io/Base64EncoderAndDecoder/"
       }
     </script>
-    <title>Base64 Text Converter — Encode & Decode Online</title>
+    <title>Base64 Encoder & Decoder — Convert Text Online</title>
   </head>
   <body>
     <a class="skip-link" href="#converter">Skip to converter</a>
@@ -89,6 +101,26 @@
           <article><h3>Instant results</h3><p>Convert with one click, or press <kbd>⌘</kbd>/<kbd>Ctrl</kbd> + <kbd>Enter</kbd>.</p></article>
           <article><h3>No data storage</h3><p>Your text never leaves the page and disappears when you close it.</p></article>
         </div>
+      </section>
+
+      <section class="guide" aria-labelledby="guide-title">
+        <div>
+          <p class="eyebrow">Base64 explained</p>
+          <h2 id="guide-title">Convert Base64 without sending your text anywhere</h2>
+          <p>Base64 is a text encoding that represents data using letters, numbers, <code>+</code>, <code>/</code>, and <code>=</code>. It is commonly used in APIs, email attachments, data URLs, and configuration files. It is an encoding—not encryption—so do not use it to protect secrets.</p>
+        </div>
+        <ol class="steps">
+          <li><strong>Choose a mode.</strong> Select <em>Encode text</em> for plain text or <em>Decode Base64</em> for an encoded value.</li>
+          <li><strong>Paste your input.</strong> The converter supports UTF-8 text, including emojis and international characters.</li>
+          <li><strong>Convert and copy.</strong> Review the result, then use Copy when you need it elsewhere.</li>
+        </ol>
+      </section>
+
+      <section class="faq" aria-labelledby="faq-title">
+        <h2 id="faq-title">Frequently asked questions</h2>
+        <details><summary>Is this Base64 converter private?</summary><p>Yes. Conversion is performed locally by your browser. The page has no server-side processing, analytics, cookies, local storage, or telemetry.</p></details>
+        <details><summary>Can it encode emojis and non-English text?</summary><p>Yes. Text is encoded as UTF-8 before conversion, so accented characters, non-Latin scripts, and emojis round-trip correctly.</p></details>
+        <details><summary>Can Base64 hide sensitive information?</summary><p>No. Base64 can be decoded by anyone and is not encryption. Avoid sharing passwords, access tokens, or other sensitive data in Base64 form.</p></details>
       </section>
     </main>
 
